@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01001A629D4AE4900448ACE /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01001A529D4AE4900448ACE /* ListDetailView.swift */; };
 		F019517429D372FC00DD8E26 /* practica_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019517329D372FC00DD8E26 /* practica_2App.swift */; };
-		F019517629D372FC00DD8E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019517529D372FC00DD8E26 /* ContentView.swift */; };
 		F019517829D372FE00DD8E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F019517729D372FD00DD8E26 /* Assets.xcassets */; };
 		F019517B29D372FE00DD8E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F019517A29D372FE00DD8E26 /* Preview Assets.xcassets */; };
 		F019518529D372FE00DD8E26 /* practica_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019518429D372FE00DD8E26 /* practica_2Tests.swift */; };
 		F019518F29D372FE00DD8E26 /* practica_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019518E29D372FE00DD8E26 /* practica_2UITests.swift */; };
 		F019519129D372FE00DD8E26 /* practica_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019519029D372FE00DD8E26 /* practica_2UITestsLaunchTests.swift */; };
+		F019519F29D373C400DD8E26 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019519E29D373C400DD8E26 /* Programmer.swift */; };
+		F01951A129D375B300DD8E26 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01951A029D375B300DD8E26 /* RowView.swift */; };
+		F01951A329D37C2100DD8E26 /* LIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01951A229D37C2100DD8E26 /* LIstView.swift */; };
+		F049F17529E487E5006016C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049F17429E487E5006016C6 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F01001A529D4AE4900448ACE /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 		F019517029D372FC00DD8E26 /* practica_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F019517329D372FC00DD8E26 /* practica_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2App.swift; sourceTree = "<group>"; };
-		F019517529D372FC00DD8E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F019517729D372FD00DD8E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F019517A29D372FE00DD8E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F019518029D372FE00DD8E26 /* practica_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		F019518A29D372FE00DD8E26 /* practica_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F019518E29D372FE00DD8E26 /* practica_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2UITests.swift; sourceTree = "<group>"; };
 		F019519029D372FE00DD8E26 /* practica_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F019519E29D373C400DD8E26 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		F01951A029D375B300DD8E26 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		F01951A229D37C2100DD8E26 /* LIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstView.swift; sourceTree = "<group>"; };
+		F049F17429E487E5006016C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		F019517229D372FC00DD8E26 /* practica_2 */ = {
 			isa = PBXGroup;
 			children = (
+				F019519D29D3738F00DD8E26 /* Data */,
 				F019517329D372FC00DD8E26 /* practica_2App.swift */,
-				F019517529D372FC00DD8E26 /* ContentView.swift */,
+				F01951A029D375B300DD8E26 /* RowView.swift */,
+				F01951A229D37C2100DD8E26 /* LIstView.swift */,
+				F01001A529D4AE4900448ACE /* ListDetailView.swift */,
+				F049F17429E487E5006016C6 /* ContentView.swift */,
 				F019517729D372FD00DD8E26 /* Assets.xcassets */,
 				F019517929D372FE00DD8E26 /* Preview Content */,
 			);
@@ -125,6 +137,14 @@
 				F019519029D372FE00DD8E26 /* practica_2UITestsLaunchTests.swift */,
 			);
 			path = practica_2UITests;
+			sourceTree = "<group>";
+		};
+		F019519D29D3738F00DD8E26 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F019519E29D373C400DD8E26 /* Programmer.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F019517629D372FC00DD8E26 /* ContentView.swift in Sources */,
+				F01951A329D37C2100DD8E26 /* LIstView.swift in Sources */,
+				F019519F29D373C400DD8E26 /* Programmer.swift in Sources */,
+				F049F17529E487E5006016C6 /* ContentView.swift in Sources */,
+				F01001A629D4AE4900448ACE /* ListDetailView.swift in Sources */,
 				F019517429D372FC00DD8E26 /* practica_2App.swift in Sources */,
+				F01951A129D375B300DD8E26 /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
