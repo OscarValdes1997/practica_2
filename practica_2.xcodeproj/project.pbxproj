@@ -19,6 +19,8 @@
 		F01951A129D375B300DD8E26 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01951A029D375B300DD8E26 /* RowView.swift */; };
 		F01951A329D37C2100DD8E26 /* LIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01951A229D37C2100DD8E26 /* LIstView.swift */; };
 		F049F17529E487E5006016C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049F17429E487E5006016C6 /* ContentView.swift */; };
+		F0962F2029E88CBA000D09E6 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0962F1F29E88CBA000D09E6 /* LoginPage.swift */; };
+		F0962F2429E8A43D000D09E6 /* mmste.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0962F2329E8A43D000D09E6 /* mmste.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		F01951A029D375B300DD8E26 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		F01951A229D37C2100DD8E26 /* LIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstView.swift; sourceTree = "<group>"; };
 		F049F17429E487E5006016C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0962F1F29E88CBA000D09E6 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		F0962F2329E8A43D000D09E6 /* mmste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				F019519D29D3738F00DD8E26 /* Data */,
 				F019517329D372FC00DD8E26 /* practica_2App.swift */,
+				F0962F1E29E88C40000D09E6 /* LoginSwiftUI */,
 				F01951A029D375B300DD8E26 /* RowView.swift */,
 				F01951A229D37C2100DD8E26 /* LIstView.swift */,
 				F01001A529D4AE4900448ACE /* ListDetailView.swift */,
@@ -148,6 +153,15 @@
 				F019519E29D373C400DD8E26 /* Programmer.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		F0962F1E29E88C40000D09E6 /* LoginSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F0962F1F29E88CBA000D09E6 /* LoginPage.swift */,
+				F0962F2329E8A43D000D09E6 /* mmste.swift */,
+			);
+			path = LoginSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0962F2029E88CBA000D09E6 /* LoginPage.swift in Sources */,
 				F01951A329D37C2100DD8E26 /* LIstView.swift in Sources */,
 				F019519F29D373C400DD8E26 /* Programmer.swift in Sources */,
 				F049F17529E487E5006016C6 /* ContentView.swift in Sources */,
+				F0962F2429E8A43D000D09E6 /* mmste.swift in Sources */,
 				F01001A629D4AE4900448ACE /* ListDetailView.swift in Sources */,
 				F019517429D372FC00DD8E26 /* practica_2App.swift in Sources */,
 				F01951A129D375B300DD8E26 /* RowView.swift in Sources */,
